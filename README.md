@@ -1,5 +1,9 @@
 # React Skeleton Pulse Loader Component
 
+Skeleton Pulse Loader for ReactJS
+
+![Demo](assets/demo.gif)
+
 ## Install
 
 ```shell
@@ -90,3 +94,21 @@ export default function Component() {
 | align     | "center" \| "left" \| "right" \| undefined | \-       | left    | align items of layout     |
 | items     | Item\[\]                                   | yes      | \-      | Layout: Array of objects  |
 |           |                                            |          |         |                           |
+
+### Props array Item
+
+| property     | propType         | required | default | description   |
+| ------------ | ---------------- | -------- | ------- | ------------- |
+| height       | number \| string | yes      | \-      | height        |
+| width        | number \| string | \-       | 100%    | widtt         |
+| borderRadius | number \| string | \-       | 0       | border radius |
+| marginBottom | number \| string | \-       | 3px     | margin bottom |
+| marginTop    | number \| string | \-       | 3px     | margin top    |
+| marginLeft   | number \| string | \-       | 0       | margin left   |
+| marginRight  | number \| string | \-       | 0       | margin right  |
+
+## LICENSE
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
+Development by: [André Coelho](https://andrecoelho.dev)
