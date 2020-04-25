@@ -1,19 +1,19 @@
-# React Skeleton Pulse Loader Component
+# React Skeleton Loader Pulse Component
 
-Skeleton Pulse Loader for ReactJS
+Skeleton Loader Pulse for ReactJS
 
 ![Demo](assets/demo.gif)
 
 ## Install
 
 ```shell
-npm install react-skeleton-pulse-loader
+npm install react-skeleton-loader-pulse
 ```
 
 ou
 
 ```shell
-yarn add react-skeleton-pulse-loader
+yarn add react-skeleton-loader-pulse
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ yarn add react-skeleton-pulse-loader
 
 ```js
 import React from "react";
-import { SkeletonItem } from "react-skeleton-pulse-loader";
+import { SkeletonItem } from "react-skeleton-loader-pulse";
 
 export default function Component() {
   return <SkeletonItem />;
@@ -47,7 +47,7 @@ export default function Component() {
 
 ```js
 import React from "react";
-import { SkeletonLayout } from "react-skeleton-pulse-loader";
+import { SkeletonLayout } from "react-skeleton-loader-pulse";
 
 export default function Component() {
   return (
