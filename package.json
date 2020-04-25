@@ -14,12 +14,12 @@
   "author": "André Coelho",
   "repository": {
     "type": "git",
-    "url": "https://github.com/avrcoelho/react-credit-card-flipping.git"
+    "url": "https://github.com/avrcoelho/react-skeleton-loader-pulse.git"
   },
   "bugs": {
-    "url": "https://github.com/avrcoelho/react-credit-card-flipping/issues"
+    "url": "https://github.com/avrcoelho/react-skeleton-loader-pulse/issues"
   },
-  "homepage": "https://github.com/avrcoelho/react-credit-card-flipping",
+  "homepage": "https://github.com/avrcoelho/react-skeleton-loader-pulse",
   "scripts": {
     "storybook": "start-storybook -p 3000",
     "build": "tsc -p ."
