@@ -34,7 +34,7 @@ export default function Component() {
 | property     | propType                      | required | default | description                |
 | ------------ | ----------------------------- | -------- | ------- | -------------------------- |
 | color        | string \| undefined           | \-       | \#ccc   | Skeleton color             |
-| pulseTime    | number \| undefined           | \-       | 1       | pulse time                 |
+| pulseTime    | number \| undefined           | \-       | 1       | pulse time in seconds      |
 | width        | string \| number \| undefined | \-       | 100px   | width container component  |
 | height       | string \| number \| undefined | \-       | 10px    | height container component |
 | marginTop    | string \| number \| undefined | \-       | 0       | margin top component       |
