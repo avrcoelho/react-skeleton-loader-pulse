@@ -7,3 +7,6 @@ __tests__
 yarn-error.log
 yarn.lock
 demo.gif
+
+.storybook
+stories
