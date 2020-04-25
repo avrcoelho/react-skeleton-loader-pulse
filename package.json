@@ -1,10 +1,28 @@
 {
-  "name": "react-skeleton-loader",
+  "name": "react-skeleton-loader-pulse",
   "version": "1.0.0",
   "main": "dist/index.js",
   "license": "MIT",
+  "keywords": [
+    "react",
+    "reactjs",
+    "credit",
+    "card",
+    "filpping",
+    "component"
+  ],
+  "author": "André Coelho",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/avrcoelho/react-credit-card-flipping.git"
+  },
+  "bugs": {
+    "url": "https://github.com/avrcoelho/react-credit-card-flipping/issues"
+  },
+  "homepage": "https://github.com/avrcoelho/react-credit-card-flipping",
   "scripts": {
-    "storybook": "start-storybook -p 3000"
+    "storybook": "start-storybook -p 3000",
+    "build": "tsc -p ."
   },
   "devDependencies": {
     "@storybook/addon-centered": "^5.3.18",
