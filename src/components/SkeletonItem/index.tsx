@@ -44,7 +44,7 @@ interface Props {
 export const SkeletonItem: React.FC<Props> = ({
   color = "#ccc",
   pulseTime = 1,
-  width = "100px",
+  width = "100%",
   height = "10px",
   marginBottom = 0,
   marginLeft = 0,
