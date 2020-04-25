@@ -81,12 +81,12 @@ export default function Component() {
 
 ### Props
 
-| property  | propType                                   | required | default                 | description               |
-| --------- | ------------------------------------------ | -------- | ----------------------- | ------------------------- |
-| color     | string \| undefined                        | \-       | \#ccc                   | Skeleton color            |
-| pulseTime | number \| undefined                        | \-       | 1                       | pulse time                |
-| width     | string \| number \| undefined              | \-       | 100%                    | width container component |
-| direction | "column" \| "row" \| undefined             | \-       | column                  | flex\-direction of layout |
-| align     | "center" \| "left" \| "right" \| undefined | \-       | left                    | align items of layout     |
-| items     | Item\[\]                                   | yes      | Layout array of objects |
-|           |                                            |          |                         |                           |
+| property  | propType                                   | required | default | description               |
+| --------- | ------------------------------------------ | -------- | ------- | ------------------------- |
+| color     | string \| undefined                        | \-       | \#ccc   | Skeleton color            |
+| pulseTime | number \| undefined                        | \-       | 1       | pulse time                |
+| width     | string \| number \| undefined              | \-       | 100%    | width container component |
+| direction | "column" \| "row" \| undefined             | \-       | column  | flex\-direction of layout |
+| align     | "center" \| "left" \| "right" \| undefined | \-       | left    | align items of layout     |
+| items     | Item\[\]                                   | yes      | \-      | Layout: Array of objects  |
+|           |                                            |          |         |                           |
