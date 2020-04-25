@@ -5,4 +5,5 @@ tsconfig.json
 .github
 __tests__
 yarn-error.log
-yarn.lock 
+yarn.lock
+demo.gif

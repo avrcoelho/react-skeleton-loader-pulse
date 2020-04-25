@@ -2,7 +2,7 @@
 
 Skeleton Loader Pulse for ReactJS
 
-![Demo](assets/demo.gif)
+![Demo](demo.gif)
 
 ## Install
 
