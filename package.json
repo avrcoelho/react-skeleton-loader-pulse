@@ -1,6 +1,6 @@
 {
   "name": "react-skeleton-loader-pulse",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "main": "dist/index.js",
   "license": "MIT",
   "keywords": [
@@ -40,5 +40,8 @@
   "dependencies": {
     "@storybook/addon-knobs": "^5.3.18",
     "styled-components": "^5.1.0"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1"
   }
 }
