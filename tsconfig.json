@@ -3,8 +3,7 @@
   "exclude": [
     "node_modules",
     "dist",
-    "./stories",
-    "native",
+    "./stories"
   ],
   "compilerOptions": {
     "skipLibCheck": true,
