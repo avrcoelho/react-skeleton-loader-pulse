@@ -39,7 +39,16 @@ export const Container = styled.div<PropsContainer>`
   width: ${(props) => props.width};
   display: flex;
   flex-direction: ${(props) => props.direction};
-  align-items: ${(props) => props.align};
+  align-items: ${(props) => {
+    switch (props.align) {
+      case "left":
+        return "flex-start";
+      case "right":
+        return "flex-end";
+      default:
+        return "center;";
+    }
+  }};
 `;
 
 export const Loader = styled.div<PropsLoader>`
