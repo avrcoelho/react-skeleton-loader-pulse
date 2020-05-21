@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useCallback } from "react";
 
 import { Container, Loader } from "./styles";
 
@@ -57,7 +57,7 @@ export const SkeletonLayout: React.FC<Props> = ({
   direction = "column",
   items,
 }) => {
-  function checkValue(value: string | number) {
+  const checkValue = useCallback((value: string | number) => {
     const regex = /^([0-9]{1,})([a-zA-Z]{2}|%)$/;
     const regexNum = /^([0-9]{1,})$/;
 
@@ -68,7 +68,7 @@ export const SkeletonLayout: React.FC<Props> = ({
     }
 
     return value;
-  }
+  }, []);
 
   return (
     <Container
