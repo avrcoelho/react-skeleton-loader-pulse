@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useCallback } from "react";
 
 import { Loader } from "./styles";
 
@@ -52,7 +52,7 @@ export const SkeletonItem: React.FC<Props> = ({
   marginTop = 0,
   borderRadius = 0,
 }) => {
-  function checkValue(value: string | number) {
+  const checkValue = useCallback((value: string | number) => {
     const regex = /^([0-9]{1,})([a-zA-Z]{2}|%)$/;
     const regexNum = /^([0-9]{1,})$/;
 
@@ -63,7 +63,7 @@ export const SkeletonItem: React.FC<Props> = ({
     }
 
     return value;
-  }
+  }, []);
 
   return (
     <Loader
