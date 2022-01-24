@@ -10,7 +10,7 @@ Skeleton Loader Pulse for ReactJS
 npm install react-skeleton-loader-pulse
 ```
 
-ou
+or
 
 ```shell
 yarn add react-skeleton-loader-pulse
