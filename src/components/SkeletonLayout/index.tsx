@@ -59,12 +59,12 @@ export const SkeletonLayout: React.FC<Props> = ({
 }) => {
   const checkValue = useCallback((value: string | number) => {
     const regex = /^([0-9]{1,})([a-zA-Z]{2}|%)$/;
-    const regexNum = /^([0-9]{1,})$/;
+    const regexNum = /(\d+(?:\.\d+)?)/;
 
     if (regex.test(String(value))) {
       return value;
     } else if (regexNum.test(String(value))) {
-      return `${value}px`;
+      return `${Number(value)}px`;
     }
 
     return value;
