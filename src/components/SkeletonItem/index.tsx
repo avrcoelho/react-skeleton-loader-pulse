@@ -59,7 +59,7 @@ export const SkeletonItem: React.FC<Props> = ({
     if (regex.test(String(value))) {
       return value;
     } else if (regexNum.test(String(value))) {
-      return `${value}px`;
+      return `${Number(value)}px`;
     }
 
     return value;
